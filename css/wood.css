@@ -1,14 +1,6 @@
-@font-face {
-  font-family: 'bastard';
-  src: url('../font/bastard.ttf')
-}
-
 * {
   margin: 0;
   padding: 0;
-}
-body {
-  background-image: url('../img/wood_background3.jpg')
 }
 
 #wood {
@@ -28,7 +20,8 @@ footer, section, article, header, aside, figure, nav {
 }
 
 .buttonSelection {
-  font-family: 'bastard', sans-serif;    padding: 1em;
+  font-family: 'Lucida Sans',sans-serif;  
+  padding: 1em;
   font-size: 0.5em;
   background-image:url('../img/wood_background.jpg');
   border:none;
