@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'bastard';
+  src: url('../font/bastard.ttf')
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url('../img/wood_background3.jpg')
+}
+
+#wood {
+}
+
+
+footer, section, article, header, aside, figure, nav {
+  display: block;
+}
+
+.picture-frame {
+  width: 500px;
+  height: 500px;
+  border: 30px solid #ccb089;
+  border-image-source: url('../img/wood_background.jpg');
+  border-image-slice: 50 65;
+}
+
+.buttonSelection {
+  font-family: 'bastard', sans-serif;    padding: 1em;
+  font-size: 0.5em;
+  background-image:url('../img/wood_background.jpg');
+  border:none;
+  margin:10px;
+  color: white;
+  margin-top: 50px;
+  padding:0;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
+.mySlides {
+  display:none;
+}
+
+button:focus {
+  outline:0;
+}
