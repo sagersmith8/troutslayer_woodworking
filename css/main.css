@@ -10,15 +10,17 @@
 
 p{
   font-size: 25px;
-  font-family: 'bastard', sans-serif;
-  color:white;
+  font-family: 'Lucida Sans',sans-serif;
+  color:grey;
 }
 
 body {
-  background-color: #f1f1f1;
+  color:grey;
+  background-color: #43464B;
+  background-image: url('../img/background.png');
   padding: 20px;
   font-size: 35px;
-  font-family: 'bastard', sans-serif;
+  font-family: 'Lucida Sans',sans-serif;
 }
 
 /* Center website */
@@ -34,9 +36,9 @@ h1 {
 
 h4{
   font-size: 38px;
-  font-family: 'bastard', sans-serif;
+  font-family: 'Lucida Sans',sans-serif;
   text-decoration: none;
-  color: whitesmoke;
+  color: grey;
 }
 
 .row {
@@ -65,7 +67,7 @@ h4{
 
 /* Content */
 .content {
-  background-image: url('../img/wood_background.jpg');
+  background-color: black;
   padding: 10px;
 
 }
@@ -89,20 +91,17 @@ h4{
 /* Add a grey background color on mouse-over */
 .btn:hover {
   outline: none;
+  color:gray;
 }
 
 /* Add a dark background color to the active button */
 .btn.active {
   outline: none;
   outline: 0;
-  color: white;
+  color: darkgray;
 }
 .btn:onclick {
   outline:0;
-}
-@font-face {
-  font-family: 'bastard';
-  src: url('../font/bastard.ttf')
 }
 
 * {
@@ -110,15 +109,12 @@ h4{
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  background-color: #cccccc;
-  color: white;
-}
-
 
 h2 {
-  font-size: 2.5em;
-  font-family: 'bastard', sans-serif;    padding: 1em;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 400;
+  font-family: impact,charcoal,sans-serif;
 }
 
 .scene {
