@@ -11,7 +11,7 @@
 p{
   font-size: 25px;
   font-family: 'Lucida Sans',sans-serif;
-  color:grey;
+  color:white;
 }
 
 body {
@@ -21,6 +21,11 @@ body {
   padding: 20px;
   font-size: 35px;
   font-family: 'Lucida Sans',sans-serif;
+}
+
+.description {
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 /* Center website */
@@ -95,7 +100,7 @@ h4{
 }
 
 /* Add a dark background color to the active button */
-.btn.active {
+.btn.activebtn {
   outline: none;
   outline: 0;
   color: darkgray;
