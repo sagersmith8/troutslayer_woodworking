@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
-
 	<head>
 		<title>Troutslayer Woodworking</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<link rel="stylesheet" href="css/bootstrap.css" media="screen">
 		<link rel="stylesheet" href="css/main.css" media="screen">
+		<link rel="stylesheet" href="css/slideshow.css">
 		<link rel="stylesheet" href="css/wood.css" media="screen">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<link rel="stylesheet" href="css/main.css">
@@ -19,16 +19,68 @@
 	<body>
 		<h2>Troutslayer Wood Working</h2>
 		<div id="myBtnContainer" style="text-align:center;">
-		  <a class="btn active">Home</a>
+		  <a class="btn activebtn">Home</a>
 		  <a class="btn" href="gallary.html"> Gallary</a>
 		  <a class="btn" href="ordering.html"> Ordering</a>
 		  <a class="btn" href="faq.html"> FAQ</a>
 		</div>
+		<div>
+			<!-- Slideshow container -->
+			<div class="slideshow-container">
 
-		
+				<!-- Full-width images with number and caption text -->
+				<div class="mySlides">
+				<div class="numbertext">1 / 3</div>
+				<img src="img/chess.jpg" style="width:100%">
+				<div class="text">Chess Board</div>
+				</div>
+
+				<div class="mySlides">
+				<div class="numbertext">2 / 3</div>
+				<img src="img/cribbage.jpg" style="width:100%">
+				<div class="text">Cribbage Board</div>
+				</div>
+
+				<div class="mySlides">
+				<div class="numbertext">3 / 3</div>
+				<img src="img/dice.jpg" style="width:100%">
+				<div class="text">Dice Set</div>
+				</div>
+
+				<!-- Next and previous buttons -->
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+			<br>
+
+			<!-- The dots/circles -->
+			<div style="text-align:center">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+			</div>
+		</div>
+		<div class="description">
+			<p>
+				Troutslayer woodworking is a small woodshop dedicated to creating a unique design and product for the customer.  Each product is individually created by hand by me.  I am dedicated to delivering a high quality product at an affordable price.  If you are in no way satisfied I will work with you to come to a desirable solution.   I want the customer to be excited about our creation.
+			</p>
+			<p>
+				My process is to work with you to visualize, design, and deliver exactly what you desire.  This includes everything from size, shape, wood, delivery and eventually payment.  Each product is highly individualized.  It can be something similar to what is shown in the gallery or something very distinct and special for you alone.  If you can describe it; I can build it.
+			</p>
+			<p>				
+				Please visit our gallery which may help you get ideas.  It includes many unique items such as a turkey call or whitetail shed antler box, or more standard fare like a jewelry box or guitar.
+			</p>
+			<p>
+				It’s very easy to get started.  Simply email troutslayer.woodworking@gmail.com with description about your product. I typically get back to you in a day or two. With a little back and forth through email we will eventually come up with a design, specifics, and a price.  Once everything is agreed upon I can start your product.
+			</p>
+			<p>
+				Thanks for the interest. Brian
+			</p>
+		</div>
+	</body>
+
 	<script src="https://smtpjs.com/v3/smtp.js"></script>
-	<script src="js/main.js"></script>
-	<script src="js/wood.js"></script>
+	<script src="js/slideshow.js"></script>
 	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 	<script src="js/bootstrap.js"></script>
 </html>
